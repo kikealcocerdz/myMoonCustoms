@@ -8,7 +8,17 @@ import {SocialButton} from '../components/SocialButton.jsx'
 
 function App() {
     return (
-      <MainPage />
+      <main className='snap-y snap-mandatory relative w-full h-screen overflow-auto'>
+        <div className='snap-center'>
+          <MainPage />
+        </div>
+        <div className='snap-center'>
+          <Gallery />
+        </div>
+        <div className='snap-center'>
+          <Contact />
+        </div>
+      </main>
     );
 }
 export default App

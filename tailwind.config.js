@@ -6,8 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      padding: {
+        '200px':'1000px'
+      },
       colors: {
-        'blue-clean':'#79ccda'
+        'blue-clean':'#79ccda',
+        'dark-blue':'#29408c',
+        'yellow-moon': '#e9eb80'
       }
     },
     fontFamily: {

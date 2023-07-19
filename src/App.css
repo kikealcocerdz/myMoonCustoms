@@ -1,8 +1,6 @@
-
-  html {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .social {
   margin: 0;
@@ -100,3 +98,4 @@
 .social .social-item .social-link:hover {
   color: #ffffff;
 }
+

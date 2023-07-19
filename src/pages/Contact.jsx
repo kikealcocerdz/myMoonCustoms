@@ -1,9 +1,8 @@
 export function Contact() {
   return (
-    <div className='screen-full'>
-    <div name='contact' className="main">
-    <form className="contact-form">
-      <h2 className="form-title">Contacto</h2>
+    <div name='contact' className="flex justify-center items-center">
+    <form className="items-center justify-center text-center flex-col">
+      <h2 className="text-4xl text-center">Contacto</h2>
       <div className="form-group">
         <label htmlFor="email" className="form-label">Correo electrónico:</label>
         <input type="email" id="email" name="email" className="form-input" required />
@@ -11,7 +10,7 @@ export function Contact() {
 
       <div className="form-group">
         <label htmlFor="name" className="form-label">Nombre:</label>
-        <input type="text" id="name" name="name" className="form-input" required />
+        <input type="text" id="name" name="name" className="border-blue-900 border-[3px]" required />
       </div>
 
       <div className="form-group">
@@ -21,8 +20,6 @@ export function Contact() {
 
       <button type="submit" className="form-submit">Enviar</button>
     </form>
-
-    </div>
     </div>
   );
 }
